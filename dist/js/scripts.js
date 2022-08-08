@@ -52,3 +52,22 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+const btn = document.getElementById('Button');
+
+document.getElementById('contactForm')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   const serviceID = 'default_service';
+   const templateID = 'template_o1hkxrf';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
