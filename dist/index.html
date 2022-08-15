@@ -42,6 +42,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">We offer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                 </ul>
             </div>
@@ -53,19 +54,23 @@
             <div class="d-flex justify-content-center">
                 <div class="text-center">
                     <h1 class="mx-auto my-0 text-uppercase">ConceptStudio</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Somos un estudio creativo de branding, diseño, web y
-                        marketing...</h2>
-                    <a class="btn btn-primary" href="#about">¡NO HAGAS CLICK!</a>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5" id="caja">Somos un estudio creativo de branding, diseño, web y
+                        marketing<span id="dots">...</span><span id="more">, con el objetivo de captar tu atención.</span></h2>
+                    <a class="btn btn-primary" onclick="toggle()" id="myBtn">¡NO HAGAS CLICK!</a>
                 </div>
             </div>
         </div>
     </header>
+    <!-- <div id="caja" style="width:600px">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+</div>
+<button onclick="toggle()" id="myBtn">Read more</button> -->
     <!-- About-->
     <section class="about-section text-center" id="about">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="text-white mb-4">...con el objetivo de captar tu atención.</h2>
+                    <h2 class="text-white mb-4">La idea no es vivir para siempre, es crear algo que sí lo haga.</h2>
                     <p class="text-white-50">
                         Creemos en el valor de las historias y pensamos que toda marca debe contar una.
                         <!-- <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>  -->
@@ -77,7 +82,6 @@
             <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
         </div>
     </section>
-
     <!-- Projects-->
     <section class="projects-section bg-light" id="projects">
         <div class="container2 px-4 px-lg-5">
@@ -99,7 +103,7 @@
         </div> 
     </section>
     <!-- Services-->
-    <section class="content-section bg-primary text-white text-center" id="services">
+    <!-- <section class="content-section bg-primary text-white text-center" id="services">
         <div class="container px-4 px-lg-5">
             <div class="content-section-heading">
                 <h3 class="text-secondary2 mb-0 h3bis">Servicios</h3>
@@ -132,7 +136,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="projects-section bg-light" id="projects">  
         <div class="container2 px-4 px-lg-5"> 
             <!-- Project One Row-->
@@ -182,7 +186,7 @@
         <div class="container2 px-4 px-lg-5">
             <div class="content-section-heading text-center">
                 <h3 class="text-secondary mb-0">Portfolio</h3>
-                <h2 class="mb-5 h2bis">Recent Projects</h2>
+                <h2 class="mb-5 h2bis">Proyectos recientes</h2>
             </div>
             <div class="row2 gx-0">
                 <div class="col-lg-6">
@@ -193,7 +197,7 @@
                                 <p class="mb-0">Web y Maquetado desde 0. Productos químicos al mejor precio y de la mejor calidad!</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
+                        <img class="img-fluid" src="assets/img/TENSOP.png" alt="..." />
                     </a>
                 </div>
                 <div class="col-lg-6">
@@ -204,7 +208,7 @@
                                 <p class="mb-0">Escuela de Música y Teatro con los mejores profesores y un clima cálido de trabajo!</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
+                        <img class="img-fluid" src="assets/img/escuela de música y teattro.png" alt="..." />
                     </a>
                 </div>
                 <div class="col-lg-6">

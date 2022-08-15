@@ -10,6 +10,16 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@charset "utf-8";
+#more {
+  display: inline;
+}
+
+#caja {
+  overflow: hidden;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11009,6 +11019,7 @@ textarea.form-control-lg {
   .content-section {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
+    /* margin-bottom: 50px; */
   }
   
   .content-section-heading h2, .content-section-heading .h2 {
@@ -11813,6 +11824,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  margin-top: 150px;
 }
 .signup-section .form-signup input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -11876,3 +11888,4 @@ body {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
